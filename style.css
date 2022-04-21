@@ -14,10 +14,12 @@
     overflow: hidden;
     margin: 0;
 } */
-htmnl {
-    background-color: #F2EFEF;
+html {
+    background-color: white;
 }
-
+body {
+    background-color: white;
+}
 
 .navBackgroundColor {
     background-color: #113170;
@@ -72,6 +74,19 @@ nav img {
 
 
 .btn-primary  {
+    background-color: #F83E7D;
+    border: 1px solid #F83E7D;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-top: 30px;
+    color: white;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.btn-primary btn-lg  {
     background-color: #F83E7D;
     border: 1px solid #F83E7D;
     border-radius: 50px;
@@ -201,5 +216,9 @@ nav img {
 
 
 
+
+.form-group {
+    padding-bottom: 15px;
+}
 
 
