@@ -4,10 +4,22 @@
     box-sizing: border-box;
 }
 
+/* body {
+    font-family: 'Roboto' , sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+} */
 html {
-    background-color: #F2EFEF;
+    background-color: white;
 }
-
+body {
+    background-color: white;
+}
 
 .navBackgroundColor {
     background-color: #113170;
@@ -62,6 +74,19 @@ nav img {
 
 
 .btn-primary  {
+    background-color: #F83E7D;
+    border: 1px solid #F83E7D;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-top: 30px;
+    color: white;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.btn-primary btn-lg  {
     background-color: #F83E7D;
     border: 1px solid #F83E7D;
     border-radius: 50px;
@@ -173,19 +198,30 @@ nav img {
 }
 
 .carousel-item:nth-child(1){
-    background-image: url("./image/Aisha1.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.carousel-item:nth-child(2){
-    background-image: url("./image/mission.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-.carousel-item:nth-child(3){
     background-image: url("./image/perspecive.jpg");
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
 }
+
+.carousel-item:nth-child(2){
+    background-image: url("./image/sky_02.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.carousel-item:nth-child(3){
+    background-image: url("./image/sky_01.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+.form-group {
+    padding-bottom: 15px;
+}
+
 
