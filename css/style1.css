@@ -173,20 +173,20 @@ nav img {
 }
 
 .carousel-item:nth-child(1){
-    background-image: url("../image/Aisha1.png");
+    background-image: url("../image/sky_01.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 .carousel-item:nth-child(2){
-    background-image: url("../image/mission.png");
+    background-image: url("../image/Aisha.PNG");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 .carousel-item:nth-child(3){
-    background-image: url("../image/perspecive.jpg");
+    background-image: url("../image/sky_02.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

@@ -30,7 +30,7 @@ if(isset($_POST['submit'])) {
     } else { //send email 
         mail($to_email, $email, $body);
         echo "Email Sent";
-         header('location: contact.html');
+         header('location: ../contact.html');
 
         
     } 
